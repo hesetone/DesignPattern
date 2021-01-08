@@ -22,7 +22,7 @@
 
 ![image-20210107222837308](images/image-20210107222837308.png)
 
-Content 类和Strategy 类是**聚合(Aggregation)**[1](#jump1)关系，聚合表示一种弱的“拥有”关系，体现的是Content对象可以包含Strategy对象，但是Content对象不是Strategy对象的一部分，且Strategy对象脱离Content具有独立意义。Content对象和Strategy对象之间是**Has-A**关系
+Content 类和Strategy 类是**聚合(Aggregation)**[^1]关系，聚合表示一种弱的“拥有”关系，体现的是Content对象可以包含Strategy对象，但是Content对象不是Strategy对象的一部分，且Strategy对象脱离Content具有独立意义。Content对象和Strategy对象之间是**Has-A**关系
 
 每个Content对象可以有多个Strategy对象组成。
 
@@ -36,5 +36,6 @@ SimpleFactory 类根据运算符来初始化对应的运算类，返回**一个*
 
 ## 参考文献
 
-[1] <a id="jump1" href="https://geek-docs.com/java/java-tutorial/java-aggregation.html">Java 聚合</a>
+
+[^1]: [Java 聚合](https://geek-docs.com/java/java-tutorial/java-aggregation.html)
 
